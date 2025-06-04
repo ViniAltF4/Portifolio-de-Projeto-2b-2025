@@ -12,55 +12,63 @@
 <body>
 
     <!-- Cabeçalho com informações de perfil -->
-    <header>
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" width="150" height="150">
-        <p>Eu sou Fernanda</p>
+    <header class="container text-center mt-5">
+
+        <img src="img/avatar-perfil.png" class="rounded-circle" width="150" height="150" alt="avatar da Fernanda">
+        <p class="lead">Eu sou Fernanda</p>
         <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional usando HTML, CSS e JavaScript.</p>
-        <p>Minhas Habilidades:</p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Scratch</li>
-        </ul>
+        <p>Sou Engenheira de Computação e Pedagoga...</p>
+        <p>Minhas Habilidades</p>
+        <div>
+
+            <!--Exibe uma habilidade como um selo virtual-->
+            <span class="badge bg-secondary">HTML</span>
+            <!--Exibe uma habilidade como um selo virtual-->
+            <span class="badge bg-secondary">CSS</span>
+            <!--Exibe uma habilidade como um selo virtual-->
+            <span class="badge bg-secondary">JavaScript</span>
+            <!--Exibe uma habilidade como um selo virtual-->
+            <span class="badge bg-secondary">Scratch</span>
+        </div>
+
     </header>
 
     <!-- Conteúdo principal com a lista de projetos -->
-    
-    <main class="container mt-5">
-    <h2 class="text-center">Meus Projetos</h2>
-    <div class="row">
-        
-        <div class="col-md-4">
-            <div class="card">
-                <img src="img/projeto-1.png" class="card-img-top" alt="Projeto 1">
-                <div class="card-body">
-                    <h5 class="card-title">Minha Biblioteca</h5>
-                    <p class="card-text">Página com livros favoritos estilizada com CSS.</p>
-                    <button type="button" class="btn btn-link" data-bs-toggle="modal1" data-bs-target="#modal1">Veja o projeto</button>
-                </div>
-            </div>
-        </div>
-    </div>
-   
-</main>
 
-    <div class="col-md-4">
+    <main class="container mt-5">
+        <h2 class="text-center">Meus Projetos</h2>
+        <div class="row">
+
+            <div class="col-md-4">
                 <div class="card">
-                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Projeto 1">
                     <div class="card-body">
-                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
-                            Artificial</h5>
-                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
-                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
-                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
-                            futuro da IA.</p>
-                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                        <h5 class="card-title">Minha Biblioteca</h5>
+                        <p class="card-text">Página com livros favoritos estilizada com CSS.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal1" data-bs-target="#modal1">Veja
                             o projeto</button>
                     </div>
                 </div>
             </div>
+        </div>
+
+    </main>
+
+    <div class="col-md-4">
+        <div class="card">
+            <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+            <div class="card-body">
+                <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
+                    Artificial</h5>
+                <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
+                    impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
+                    pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
+                    futuro da IA.</p>
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                    o projeto</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Rodapé com informações de contato -->
     <footer>
@@ -76,26 +84,7 @@
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!--Cabeçalho com informações de perfil-->
-<header class="container text-center mt-5">
 
-    <img src="img/avatar-perfil.png" class="rounded-circle" width="150" height="150" alt="avatar da Fernanda">
-    <p class="lead">Eu sou Fernanda</p>
-    <h1>Eu ensino Programação</h1>
-    <p>Sou Engenheira de Computação e Pedagoga...</p>
-    <p>Minhas Habilidades</p>
-    <div>
-
-        <!--Exibe uma habilidade como um selo virtual-->
-        <span class="badge bg-secondary">HTML</span>
-        <!--Exibe uma habilidade como um selo virtual-->
-        <span class="badge bg-secondary">CSS</span>
-        <!--Exibe uma habilidade como um selo virtual-->
-        <span class="badge bg-secondary">JavaScript</span>
-        <!--Exibe uma habilidade como um selo virtual-->
-        <span class="badge bg-secondary">Scratch</span>
-    </div>
-
-</header>
 
 <!--Conteúdo principal com a lista de projetos-->
 
